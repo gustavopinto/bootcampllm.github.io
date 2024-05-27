@@ -1,49 +1,83 @@
 ---
 layout: post
-title:  "Powerful things you can do with the Markdown editor"
+title:  "TL;DR"
 author: sal
-categories: [ Jekyll, tutorial ]
-image: assets/images/4.jpg
 ---
-There are lots of powerful things you can do with the Markdown editor
+O bootcamp LLM4Devs é um evento de 3h de duração que acelera devs a construirem aplicações baseadas em LLMs.
 
-If you've gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!
+O bootcamp é 100% hands on e o feedback tem sido muito positivo.
 
-As with the last post about the editor, you'll want to be actually editing this post as you read it so that you can see all the Markdown code we're using.
+## Do que se trata?
+
+Aprenda a os conceitos, técnicas e práticas para desenhar e implantar aplicações baseadas em LLM para resolver problemas do mundo real.
+
+Este bootcamp é destinado a profissionais técnicos, como engenheiros de software, cientistas de dados, analistas de dados, gerentes técnicos e qualquer pessoa interessada em aplicar LLM para solucionar problemas do mundo real.
+
+O bootcamp, ministrado por um especialista com mais de 15 anos de experiência em pesquisa e desenvolvimento, oferece uma abordagem teórica e prática para ensinar os principais conceitos de LLM.
+
+Ao ingressar, os participantes aprenderão a projetar e escrever o código para construir suas primeiras aplicações baseadas de LLM, completamente do zero.
+
+## Conteúdo programático
+
+O programa abrange as melhores práticas para enfrentar desafios significativos enfrentados pelos engenheiros de LLM na construção, avaliação, execução, monitoramento e manutenção de sistemas em cenários do mundo real.
+
+1. Entendendo sobre LLMs
+2. Hello world com o langchain
+3. Testando prompts e engenharia de prompts
+4. Entendendo de embeddings
+5. Comparando dados por similaridade
+6. Conectando com um banco vetorial
+7. Criando um retriever no langchain
+
+## Requisitos básicos
+
+O programa é adequado para aqueles com experiência em codificação, conhecimento básico em alguma linguagem de programação, conhecimento prévio da terminologia de LLM (embora não obrigatório) e, mais importante, disposição para dedicar tempo e esforço ao aprendizado prático.
 
 
-## Special formatting
+## Data do próximo Bootcamp
 
-As well as bold and italics, you can also use some other special formatting in Markdown when the need arises, for example:
+O próximo bootcamp ocorrerá no dia **15 de Junho de 2024 (um sábado)**.
 
-+ ~~strike through~~
-+ ==highlight==
-+ \*escaped characters\*
+O bootcamp tem duração aproximada de 4h, e começará às 08h:30m.
+
+Para facilitar a interação com os participantes, **o bootcamp tem somente 30 vagas disponíveis**.
+
+Após o bootcamp, os participantes têm acesso vitalício a um grupo com os alunos que já participaram do bootcamp, permitindo troca de experiências e dúvidas.
+
+## Bônus
+
+Ao se inscrever no nosso bootcamp, você não apenas terá acesso a uma imersão síncrona nas técnicas de desenvolvimento de aplicações baseadas em LLM, mas também receberá um bônus exclusivo: acesso a três cursos online que aprofundarão seu conhecimento e expandirão suas habilidades. Os cursos inclusos são:
+
+- “Converse com seus Documentos Usando LLM”
+- “Entendendo Embeddings”
+- “Dominando Estratégias de Chunking”
+
+Essa oferta permite que você aprenda de forma síncrona e assíncrona, garantindo uma experiência completa de aprendizado e desenvolvimento profissional.
+
+## E se eu tiver dúvidas?
+
+Ao concluir o bootcamp, sua jornada de aprendizado não termina.
+
+Para facilitar a troca de ideias e sanar dúvidas que possam surgir, todos os participantes serão convidados a se juntar a um canal privado no Discord.
+
+Lá, você poderá fazer network de qualidade com colegas, compartilhar insights, e obter suporte contínuo para suas aplicações baseadas em LLMs, garantindo um desenvolvimento profissional mais robusto e completo.
 
 
-## Writing code blocks
+## Perguntas frequentes
 
-There are two types of code elements which can be inserted in Markdown, the first is inline, and the other is block. Inline code is formatted by wrapping any word or words in back-ticks, `like this`. Larger snippets of code can be displayed across multiple lines using triple back ticks:
+- **Onde vai ser?** O bootcamp vai acontecer online, em uma sala do Google Meet. Em até dois dias antes do evento, o convite vai ser adicionado na agenda dos participantes, com link para ingressar na sala no dia marcado.
 
-```
-.my-link {
-    text-decoration: underline;
-}
-```
+- **Vai ser gravado?** Sim, o bootcamp vai ser gravado e o link da gravação será disponibilizado para todos os participantes
 
-If you want to get really fancy, you can even add syntax highlighting using Rouge.
+- **Tem algum pré-requisito?** O único pre-requisito é ter noções de programação, preferencialmente em Python. Não é preciso ter experiência prévia com uso de LLMs.
 
+- **Se eu tiver dúvidas depois?** Para facilitar as dúvidas e trocas de interações com os participantes após o bootcamp, todos os participantes serão convidados a entrar em um canal privado no discord.
+
+## O que outros membros falam do bootcamp?
 
 ![walking]({{ site.baseurl }}/assets/images/3.jpg)
 
-## Reference lists
+## Sobre o instrutor
 
-The quick brown jumped over the lazy.
+Gustavo é doutor em computação, professor universitário, engenheiro de software na industria de tecnologia e escreve na newsletter Machine Learning For Software Engineering (ML4SE). Saiba mais em [gustavopinto.org](https://gustavopinto.org/).
 
-Another way to insert links in markdown is using reference lists. You might want to use this style of linking to cite reference material in a Wikipedia-style. All of the links are listed at the end of the document, so you can maintain full separation between content and its source or reference.
-
-## Full HTML
-
-Perhaps the best part of Markdown is that you're never limited to just Markdown. You can write HTML directly in the Markdown editor and it will just work as HTML usually does. No limits! Here's a standard YouTube embed code as an example:
-
-<p><iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
