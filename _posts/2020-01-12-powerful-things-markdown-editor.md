@@ -48,6 +48,7 @@ O investimento para participar do bootcamp é de **R$ 497**. No entanto, há um 
 - Para 10 seguintes, **o desconto é de 20% (R$ 397, total).** 
 - Para os 10 finais, aplica-se o valor cheio de R$ 497.
 
+<a href="https://gustavopinto.gumroad.com/l/bootcamp-llm4devs" class="btn btn-dark text-white px-5 btn-lg">Se inscreva agora!</a>
 
 ## Bônus
 
@@ -83,10 +84,25 @@ Lá, você poderá fazer network de qualidade com colegas, compartilhar insights
 O feedback de edições passadas do bootcamp tem sido muito positivo.
 
 ![walking]({{ site.baseurl }}/assets/images/1.png)
+
+&nbsp;
+
 ![walking]({{ site.baseurl }}/assets/images/2.png)
+
+&nbsp;
+
 ![walking]({{ site.baseurl }}/assets/images/3.png)
+
+&nbsp;
+
 ![walking]({{ site.baseurl }}/assets/images/4.png)
+
+&nbsp;
+
 ![walking]({{ site.baseurl }}/assets/images/5.png)
+
+&nbsp;
+
 ![walking]({{ site.baseurl }}/assets/images/6.png)
 
 ## Sobre o instrutor
