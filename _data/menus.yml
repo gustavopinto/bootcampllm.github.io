@@ -6,6 +6,8 @@ topmenu:
   class: "ml-2 btn btn-dark text-white px-3"
   external: true
 
+footermenu:
+
 - title: Se inscreva agora!
   url: https://gustavopinto.gumroad.com/l/bootcamp-llm4devs
   external: true
