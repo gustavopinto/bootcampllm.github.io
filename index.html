@@ -2,6 +2,7 @@
 title: Home
 layout: default
 background: '/img/bg-index.jpg'
+disqus: false
 ---
 
 <!-- Home Intro
@@ -23,44 +24,45 @@ background: '/img/bg-index.jpg'
 </div>
 {% endif %}
 
-<!-- Featured
+
+<!-- Begin Article
 ================================================== -->
-<section class="row">
-  This is changed. As I engage in the so-called "bull sessions" around and about the school, I too often find that most college men have a misconception of the purpose of education. Most of the "brethren" think that <a href="#">education should equip</a> them with the proper instruments of exploitation so that they can forever trample over the masses. Still others think that education should furnish them with noble ends rather than means to an end.
 
-It seems to me that education has a two-fold function to perform in the life of man and in society: the one is utility and the other is culture. Education must enable a man to become more efficient, to achieve with increasing facility the ligitimate goals of his life.
+<div class="row">
+		
 
-  {% for post in site.posts %}
-      {% if post.featured == true %}
-          <div class="col-md-4 mb-5">
-          {% include postbox.html %}
-          </div>
-      {% endif %}
-  {% endfor %}
-  </div>
-</section>
-
-<!-- Posts List with Sidebar (except featured)
-================================================== -->
-<section class="row">
+  <!-- Post -->        
+    Gustavo Pinto
+      
   <div class="col-sm-8">
-    <div class="row">
-      {% for post in paginator.posts %}
-      {% unless post.featured == true %}
-      <div class="col-md-6 mb-5">
-        {% include postbox.html %}
-      </div>
-      {% endunless %}
-      {% endfor %}
+    <div class="mainheading">                       
+                          <!-- Post Title -->
+      <h1 class="posttitle">Good title</h1> 
     </div>
-    <!-- Pagination -->
-    <div class="bottompagination">
-      <span class="navigation" role="navigation">
-          {% include pagination.html %}
-      </span>
+
+    
+
+    <!-- Post Content -->
+    <div class="article-post serif-font">
+      Content tops 
+              <div class="clearfix"></div>
     </div>
+
+          				
+      <div class="row post-top-meta">
+        <div class="col-md-2">
+          <img class="author-thumb" src="{{site.baseurl}}/{{author.avatar}}" alt="{{ author.display_name }}">
+        </div>
+        <div class="col-md-10">
+          <a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>
+          <span class="author-description">{{ author.description }}</span>						
+        </div>
+      </div>				
   </div>
-  <div class="col-sm-4">
-    {% include sidebar.html %}
-  </div>
-</section>
+  <!-- End Post -->
+      
+
+</div>
+
+<!-- End Article
+================================================== -->
