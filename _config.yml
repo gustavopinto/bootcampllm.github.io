@@ -31,7 +31,7 @@ authors:
     email: Gustavo Pinto
     web: https://www.wowthemes.net/category/jekyll-themes/
     twitter: https://twitter.com/wowthemesnet
-    description: "Author of Affiliates, a template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+    description: "Gustavo é doutor em computação, professor universitário, engenheiro de software na industria de tecnologia e escreve na newsletter Machine Learning For Software Engineering (ML4SE). Saiba mais em gustavopinto.org."
   john:
     name: John
     display_name: John
@@ -43,9 +43,8 @@ authors:
 
 # Social
 social:
-  instagram: https://www.instagram.com/bootstrapstarter/
-  facebook: https://www.facebook.com/bootstrapstartercom-346329609045284
-  twitter: https://twitter.com/bstartercom
+  twitter: https://twitter.com/gustavopinto
+  linkedin: https://www.linkedin.com/in/ghlp/
 
 # Plugins
 plugins: 
