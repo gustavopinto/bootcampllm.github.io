@@ -16,7 +16,9 @@ Ao ingressar, os participantes aprenderão a projetar e escrever o código para 
 
 ## Conteúdo programático
 
-O programa abrange as melhores práticas para enfrentar desafios significativos enfrentados pelos engenheiros de LLM na construção, avaliação, execução, monitoramento e manutenção de sistemas em cenários do mundo real.
+O bootcamp abrange as melhores práticas para enfrentar desafios significativos enfrentados pelos engenheiros de LLM na construção, avaliação, execução, monitoramento e manutenção de sistemas em cenários do mundo real.
+
+Nossa agenda está organizada da seguinte forma:
 
 1. Entendendo sobre LLMs
 2. Hello world com o langchain
@@ -26,9 +28,11 @@ O programa abrange as melhores práticas para enfrentar desafios significativos 
 6. Conectando com um banco vetorial
 7. Criando um retriever no langchain
 
+E mais.. ! 
+
 ## Requisitos básicos
 
-O programa é adequado para aqueles com experiência em codificação, conhecimento básico em alguma linguagem de programação, conhecimento prévio da terminologia de LLM (embora não obrigatório) e, mais importante, disposição para dedicar tempo e esforço ao aprendizado prático.
+O bootcamp é adequado para aqueles com experiência em codificação, conhecimento básico em alguma linguagem de programação, conhecimento prévio da terminologia de LLM (embora não obrigatório) e, mais importante, disposição para dedicar tempo e esforço ao aprendizado prático.
 
 ## Data do próximo Bootcamp
 
@@ -85,24 +89,14 @@ O feedback de edições passadas do bootcamp tem sido muito positivo.
 
 ![walking]({{ site.baseurl }}/assets/images/1.png)
 
-&nbsp;
-
 ![walking]({{ site.baseurl }}/assets/images/2.png)
-
 &nbsp;
-
 ![walking]({{ site.baseurl }}/assets/images/3.png)
-
 &nbsp;
-
 ![walking]({{ site.baseurl }}/assets/images/4.png)
-
 &nbsp;
-
 ![walking]({{ site.baseurl }}/assets/images/5.png)
-
 &nbsp;
-
 ![walking]({{ site.baseurl }}/assets/images/6.png)
 
 ## Sobre o instrutor
