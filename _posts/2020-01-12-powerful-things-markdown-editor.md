@@ -48,9 +48,9 @@ Após o bootcamp, os participantes têm acesso vitalício a um grupo com os alun
 
 Ao se inscrever no nosso bootcamp, você não apenas terá acesso a uma imersão síncrona nas técnicas de desenvolvimento de aplicações baseadas em LLM, mas também receberá um bônus exclusivo: acesso a três cursos online que aprofundarão seu conhecimento e expandirão suas habilidades. Os cursos inclusos são:
 
-- “Converse com seus Documentos Usando LLM”
-- “Entendendo Embeddings”
-- “Dominando Estratégias de Chunking”
+- [Converse com seus Documentos Usando LLM](https://gustavopinto.gumroad.com/l/chat-llm)
+- [Entendendo Embeddings](https://gustavopinto.gumroad.com/l/embeddings)
+- [Dominando Estratégias de Chunking](https://gustavopinto.gumroad.com/l/dominando-chunks)
 
 Essa oferta permite que você aprenda de forma síncrona e assíncrona, garantindo uma experiência completa de aprendizado e desenvolvimento profissional.
 
@@ -74,6 +74,8 @@ Lá, você poderá fazer network de qualidade com colegas, compartilhar insights
 - **Se eu tiver dúvidas depois?** Para facilitar as dúvidas e trocas de interações com os participantes após o bootcamp, todos os participantes serão convidados a entrar em um canal privado no discord.
 
 ## O que outros membros falam do bootcamp?
+
+O feedback de edições passadas do bootcamp tem sido muito positivo.
 
 ![walking]({{ site.baseurl }}/assets/images/1.png)
 ![walking]({{ site.baseurl }}/assets/images/2.png)
