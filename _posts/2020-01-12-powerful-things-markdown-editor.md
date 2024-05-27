@@ -3,9 +3,6 @@ layout: post
 title:  "TL;DR"
 author: sal
 ---
-O bootcamp LLM4Devs é um evento de 3h de duração que acelera devs a construirem aplicações baseadas em LLMs.
-
-O bootcamp é 100% hands on e o feedback tem sido muito positivo.
 
 ## Do que se trata?
 
@@ -47,7 +44,7 @@ Após o bootcamp, os participantes têm acesso vitalício a um grupo com os alun
 
 O investimento para participar do bootcamp é de **R$ 497**. No entanto, há um desconto significativo para os primeiros participantes inscritos. 
 
-- Para os primeiros 10 inscritos, **o desconto é de 40% do valor total (R$ 297, total)**. 
+- Para os primeiros 10 inscritos, **o desconto é de 40% (R$ 297, total)**. 
 - Para 10 seguintes, **o desconto é de 20% (R$ 397, total).** 
 - Para os 10 finais, aplica-se o valor cheio de R$ 497.
 
