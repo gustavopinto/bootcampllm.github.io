@@ -33,7 +33,6 @@ O programa abrange as melhores práticas para enfrentar desafios significativos 
 
 O programa é adequado para aqueles com experiência em codificação, conhecimento básico em alguma linguagem de programação, conhecimento prévio da terminologia de LLM (embora não obrigatório) e, mais importante, disposição para dedicar tempo e esforço ao aprendizado prático.
 
-
 ## Data do próximo Bootcamp
 
 O próximo bootcamp ocorrerá no dia **15 de Junho de 2024 (um sábado)**.
@@ -43,6 +42,15 @@ O bootcamp tem duração aproximada de 4h, e começará às 08h:30m.
 Para facilitar a interação com os participantes, **o bootcamp tem somente 30 vagas disponíveis**.
 
 Após o bootcamp, os participantes têm acesso vitalício a um grupo com os alunos que já participaram do bootcamp, permitindo troca de experiências e dúvidas.
+
+## Investimento
+
+O investimento para participar do bootcamp é de **R$ 497**. No entanto, há um desconto significativo para os primeiros participantes inscritos. 
+
+- Para os primeiros 10 inscritos, **o desconto é de 40% do valor total (R$ 297, total)**. 
+- Para 10 seguintes, **o desconto é de 20% (R$ 397, total).** 
+- Para os 10 finais, aplica-se o valor cheio de R$ 497.
+
 
 ## Bônus
 
