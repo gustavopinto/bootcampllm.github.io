@@ -75,7 +75,12 @@ Lá, você poderá fazer network de qualidade com colegas, compartilhar insights
 
 ## O que outros membros falam do bootcamp?
 
-![walking]({{ site.baseurl }}/assets/images/3.jpg)
+![walking]({{ site.baseurl }}/assets/images/1.png)
+![walking]({{ site.baseurl }}/assets/images/2.png)
+![walking]({{ site.baseurl }}/assets/images/3.png)
+![walking]({{ site.baseurl }}/assets/images/4.png)
+![walking]({{ site.baseurl }}/assets/images/5.png)
+![walking]({{ site.baseurl }}/assets/images/6.png)
 
 ## Sobre o instrutor
 
