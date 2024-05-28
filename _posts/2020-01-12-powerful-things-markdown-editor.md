@@ -14,7 +14,7 @@ O bootcamp, ministrado por um especialista com mais de 15 anos de experiência e
 
 Ao ingressar, os participantes aprenderão a projetar e escrever o código para construir suas primeiras aplicações baseadas de LLM, completamente do zero.
 
-<p><iframe style="width:100%;" height="315" src="https://www.youtube.com/watch?v=uqX7K6WxiQs" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/uqX7K6WxiQs?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
 
 ## Conteúdo programático
 
