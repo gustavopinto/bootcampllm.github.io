@@ -38,7 +38,7 @@ O bootcamp é adequado para aqueles com experiência em codificação, conhecime
 
 ## Data do próximo Bootcamp
 
-O próximo bootcamp ocorrerá no dia **15 de Junho de 2024 (um sábado)**.
+O próximo bootcamp ocorrerá no dia **13 de Julho de 2024 (um sábado)**.
 
 O bootcamp tem duração aproximada de 4h, e começará às 08h:30m.
 
@@ -48,13 +48,13 @@ Após o bootcamp, os participantes têm acesso vitalício a um grupo com os alun
 
 ## Investimento
 
-O investimento para participar do bootcamp é de **R$ 497**. No entanto, há um desconto significativo para os primeiros participantes inscritos. 
+O investimento para participar do bootcamp é de **R$ 397**. No entanto, há um desconto significativo para os primeiros participantes inscritos. 
 
 - Para os primeiros 10 inscritos, **o desconto é de 40% (R$ 297, total)**. 
 - Para 10 seguintes, **o desconto é de 20% (R$ 397, total).** 
 - Para os 10 finais, aplica-se o valor cheio de R$ 497.
 
-<a href="https://gustavopinto.gumroad.com/l/bootcamp-llm4devs" class="btn btn-dark text-white px-5 btn-lg">Se inscreva agora!</a>
+<a href="https://gustavopinto.gumroad.com/l/3-llm4devs" class="btn btn-dark text-white px-5 btn-lg">Se inscreva agora!</a>
 
 ## Bônus
 
