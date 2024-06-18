@@ -48,13 +48,7 @@ Após o bootcamp, os participantes têm acesso vitalício a um grupo com os alun
 
 ## Investimento
 
-O investimento para participar do bootcamp é de **R$ 397**. No entanto, há um desconto significativo para os primeiros participantes inscritos. 
-
-- Para os primeiros 10 inscritos, **o desconto é de 40% (R$ 297, total)**. 
-- Para 10 seguintes, **o desconto é de 20% (R$ 397, total).** 
-- Para os 10 finais, aplica-se o valor cheio de R$ 497.
-
-<a href="https://gustavopinto.gumroad.com/l/3-llm4devs" class="btn btn-dark text-white px-5 btn-lg">Se inscreva agora!</a>
+O investimento para participar do bootcamp é de **R$ 397**. 
 
 ## Bônus
 
@@ -65,6 +59,10 @@ Ao se inscrever no nosso bootcamp, você não apenas terá acesso a uma imersão
 - [Dominando Estratégias de Chunking](https://gustavopinto.gumroad.com/l/dominando-chunks)
 
 Essa oferta permite que você aprenda de forma síncrona e assíncrona, garantindo uma experiência completa de aprendizado e desenvolvimento profissional.
+
+
+<a href="https://gustavopinto.gumroad.com/l/3-llm4devs" class="btn btn-dark text-white px-5 btn-lg">Se inscreva agora!</a>
+
 
 ## E se eu tiver dúvidas?
 
