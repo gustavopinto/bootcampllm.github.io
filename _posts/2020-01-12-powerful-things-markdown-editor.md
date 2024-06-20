@@ -83,9 +83,11 @@ Lá, você poderá fazer network de qualidade com colegas, compartilhar insights
 
 - **Se eu tiver dúvidas depois?** Para facilitar as dúvidas e trocas de interações com os participantes após o bootcamp, todos os participantes serão convidados a entrar em um canal privado no discord.
 
-## O que outros membros falam do bootcamp?
+## O que os participantes falam do bootcamp?
 
-O feedback de edições passadas do bootcamp tem sido muito positivo.
+O feedback de edições passadas do bootcamp tem sido extremamente positivo.
+
+### Feedback do primeiro bootcamp
 
 ![walking]({{ site.baseurl }}/assets/images/1.png)
 
@@ -98,6 +100,14 @@ O feedback de edições passadas do bootcamp tem sido muito positivo.
 ![walking]({{ site.baseurl }}/assets/images/5.png)
 &nbsp;
 ![walking]({{ site.baseurl }}/assets/images/6.png)
+
+### Feedback do segundo bootcamp
+
+![walking]({{ site.baseurl }}/assets/images/bootcamp2-1.png)
+&nbsp;
+![walking]({{ site.baseurl }}/assets/images/bootcamp2-2.png)
+&nbsp;
+![walking]({{ site.baseurl }}/assets/images/bootcamp2-3.png)
 
 ## Sobre o instrutor
 
