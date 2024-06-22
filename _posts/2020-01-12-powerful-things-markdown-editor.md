@@ -10,7 +10,7 @@ Aprenda a os conceitos, técnicas e práticas para desenhar e implantar aplicaç
 
 Este bootcamp é destinado a profissionais técnicos, como engenheiros de software, cientistas de dados, analistas de dados, gerentes técnicos e qualquer pessoa interessada em aplicar LLM para solucionar problemas do mundo real.
 
-O bootcamp, ministrado por um especialista com mais de 15 anos de experiência em pesquisa e desenvolvimento, oferece uma abordagem teórica e prática para ensinar os principais conceitos de LLM.
+O bootcamp, ministrado por um especialista com mais de 15 anos de experiência em pesquisa e desenvolvimento, oferece uma abordagem teórica e prática para ensinar os principais conceitos de uso de LLMs.
 
 Ao ingressar, os participantes aprenderão a projetar e escrever o código para construir suas primeiras aplicações baseadas de LLM, completamente do zero.
 
@@ -38,7 +38,7 @@ O bootcamp é adequado para aqueles com experiência em codificação, conhecime
 
 ## Data do próximo Bootcamp
 
-O próximo bootcamp ocorrerá no dia **13 de Julho de 2024 (um sábado)**.
+O próximo bootcamp ocorrerá no dia **17 de Agosto de 2024 (um sábado)**.
 
 O bootcamp tem duração aproximada de 4h, e começará às 08h:30m.
 
