@@ -36,10 +36,9 @@ O bootcamp é dividido em dois sábados:
 ### Segundo sábado: criando agentes inteligentes
 
 1. Conceitos básicos de agentes inteligentes.
-2. Desenvolvimento de agentes com LLMs.
-3. Automatização de processos com agentes.
-4. Monitoramento e ajustes contínuos de agentes.
-5. Aplicações práticas de agentes em negócios.
+2. Desenvolvimento de agentes com LLMs e langchain.
+3. Criando tools especializadas para agentes.
+4. Aplicações práticas de agentes em negócios.
 
 ## Requisitos básicos
 
