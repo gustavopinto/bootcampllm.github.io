@@ -18,9 +18,11 @@ Ao ingressar, os participantes aprenderão a projetar e escrever o código para 
 
 ## Conteúdo programático
 
-O bootcamp abrange as melhores práticas para enfrentar desafios significativos enfrentados pelos engenheiros de LLM na construção, avaliação, execução, monitoramento e manutenção de sistemas em cenários do mundo real. O bootcamp é dividido em dois dias:
+O bootcamp abrange as melhores práticas para enfrentar desafios significativos enfrentados pelos engenheiros de LLM na construção, avaliação, execução, monitoramento e manutenção de sistemas em cenários do mundo real. 
 
-### Primeiro dia: conversando com documentos
+O bootcamp é dividido em dois sábados:
+
+### Primeiro sábado: conversando com documentos
 
 
 1. Entendendo sobre LLMs
@@ -31,7 +33,7 @@ O bootcamp abrange as melhores práticas para enfrentar desafios significativos 
 6. Conectando com um banco vetorial
 7. Criando um retriever no langchain
 
-### Segundo dia: criando agentes inteligentes
+### Segundo sábado: criando agentes inteligentes
 
 1. Conceitos básicos de agentes inteligentes.
 2. Desenvolvimento de agentes com LLMs.
@@ -43,9 +45,9 @@ O bootcamp abrange as melhores práticas para enfrentar desafios significativos 
 
 O bootcamp é adequado para aqueles com experiência em codificação, conhecimento básico em alguma linguagem de programação, conhecimento prévio da terminologia de LLM (embora não obrigatório) e, mais importante, disposição para dedicar tempo e esforço ao aprendizado prático.
 
-## Data do próximo Bootcamp
+## Datas do próximo Bootcamp
 
-O próximo bootcamp ocorrerá no dia **21 e 28 de Setembro de 2024 (dois sábados)**.
+O próximo bootcamp ocorrerá nos dias **21 e 28 de Setembro de 2024 (dois sábados)**.
 
 O bootcamp tem duração aproximada de 6h, começando às 09h:00m (3h por sábado).
 
