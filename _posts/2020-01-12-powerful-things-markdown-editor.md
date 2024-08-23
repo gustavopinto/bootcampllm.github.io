@@ -14,13 +14,14 @@ O bootcamp, ministrado por um especialista com mais de 15 anos de experiência e
 
 Ao ingressar, os participantes aprenderão a projetar e escrever o código para construir suas primeiras aplicações baseadas de LLM, completamente do zero.
 
-<p><iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/uqX7K6WxiQs?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+<p><iframe style="width:100%;" height="415" src="https://www.youtube.com/embed/uqX7K6WxiQs?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
 
 ## Conteúdo programático
 
-O bootcamp abrange as melhores práticas para enfrentar desafios significativos enfrentados pelos engenheiros de LLM na construção, avaliação, execução, monitoramento e manutenção de sistemas em cenários do mundo real.
+O bootcamp abrange as melhores práticas para enfrentar desafios significativos enfrentados pelos engenheiros de LLM na construção, avaliação, execução, monitoramento e manutenção de sistemas em cenários do mundo real. O bootcamp é dividido em dois dias:
 
-Nossa agenda está organizada da seguinte forma:
+### Primeiro dia: conversando com documentos
+
 
 1. Entendendo sobre LLMs
 2. Hello world com o langchain
@@ -30,7 +31,13 @@ Nossa agenda está organizada da seguinte forma:
 6. Conectando com um banco vetorial
 7. Criando um retriever no langchain
 
-E mais.. ! 
+### Segundo dia: criando agentes inteligentes
+
+1. Conceitos básicos de agentes inteligentes.
+2. Desenvolvimento de agentes com LLMs.
+3. Automatização de processos com agentes.
+4. Monitoramento e ajustes contínuos de agentes.
+5. Aplicações práticas de agentes em negócios.
 
 ## Requisitos básicos
 
@@ -38,9 +45,9 @@ O bootcamp é adequado para aqueles com experiência em codificação, conhecime
 
 ## Data do próximo Bootcamp
 
-O próximo bootcamp ocorrerá no dia **17 de Agosto de 2024 (um sábado)**.
+O próximo bootcamp ocorrerá no dia **21 e 28 de Setembro de 2024 (dois sábados)**.
 
-O bootcamp tem duração aproximada de 4h, e começará às 08h:30m.
+O bootcamp tem duração aproximada de 6h, começando às 09h:00m (3h por sábado).
 
 Para facilitar a interação com os participantes, **o bootcamp tem somente 30 vagas disponíveis**.
 
@@ -48,7 +55,7 @@ Após o bootcamp, os participantes têm acesso vitalício a um grupo com os alun
 
 ## Investimento
 
-O investimento para participar do bootcamp é de **R$ 397**. 
+O investimento para participar do bootcamp é de **R$ 789**. 
 
 ## Bônus
 
@@ -61,7 +68,7 @@ Ao se inscrever no nosso bootcamp, você não apenas terá acesso a uma imersão
 Essa oferta permite que você aprenda de forma síncrona e assíncrona, garantindo uma experiência completa de aprendizado e desenvolvimento profissional.
 
 
-<a href="https://gustavopinto.gumroad.com/l/3-llm4devs" class="btn btn-dark text-white px-5 btn-lg">Se inscreva agora!</a>
+<a href="https://buy.stripe.com/8wMeXYecibtd12g288" class="btn btn-dark text-white px-5 btn-lg">Se inscreva agora!</a>
 
 
 ## E se eu tiver dúvidas?
