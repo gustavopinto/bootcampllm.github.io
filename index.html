@@ -1,53 +1,313 @@
----
-title: Home
-layout: default
-background: '/img/bg-index.jpg'
-disqus: false
----
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootcamp LLM4Devs</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">LLM4Devs</div>
+            <div class="nav-links">
+                <a href="#sobre">Sobre</a>
+                <a href="#conteudo">Conteúdo</a>
+                <a href="#datas">Datas</a>
+                <a href="#investimento">Investimento</a>
+                <a href="#faq">FAQ</a>
+                <button class="cta-button">Quero me inscrever!</button>
+            </div>
+        </nav>
+    </header>
 
-<!-- Home Intro
-================================================== -->
-{% if page.url == "/" %} 
-<div class="rounded mb-5 hero">
-  <div class="row align-items-center justify-content-between">
-    <div class="col-md-6">
-      <h1 class="font-weight-bold mb-4 serif-font">Vamos aprender a criar aplicações baseadas em LLMs juntos?</h1>
-      <p class="lead mb-4">O bootcamp LLM4Devs é um evento de 6h de duração (divido em dois sábados) que acelera devs a construirem aplicações baseadas em LLMs.</p>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Construa sua primeira aplicação com LLMs em horas, e não semanas</h1>
+                    <p>A LLM4Devs é uma escola de desenvolvimento de aplicações com LLMs. Fornecemos dois modelos de bootcamps: um para quem quer entrar no mundo de LLMs, e outro para quem já entnde e quer começar a desenvolver aplicações usando agentes inteligentes. </p>
+                    <p>Os bootcamps ocorrem online, em formato síncrono.</p>
+                    <button class="primary-button">Quero me inscrever!</button>
+                </div>
+                <div class="hero-video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/uqX7K6WxiQs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
 
-      <p>O bootcamp é 100% <i>hands on</i> e o feedback tem sido muito positivo. Se interessou?</p>
-      <a href="https://buy.stripe.com/8wMeXYecibtd12g288" class="btn btn-dark text-white px-5 btn-lg">Se inscreva agora!</a>
-    </div>
-    <div class="col-md-6 text-right pl-0 pl-lg-4">
-      <img class="intro" height="500" src="{{site.baseurl}}/assets/images/intro.svg">      
-    </div>
-  </div>
-</div>
-{% endif %}
+        <section id="sobre" class="features">
+            <h2>Como funciona?</h2>
+            <div class="features-grid">
+                <div class="feature-block">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Bootcamp LLM</h3>
+                    <p>Aprenda a criar aplicações que conversam com documentos usando LLMs, embeddings e bancos vetoriais.</p>
+                </div>
+                <div class="feature-block">
+                    <i class="fas fa-robot"></i>
+                    <h3>Bootcamp Agentes</h3>
+                    <p>Desenvolva agentes inteligentes que podem realizar tarefas complexas usando LLMs e ferramentas especializadas.</p>
+                </div>
+                <div class="feature-block">
+                    <i class="fas fa-code"></i>
+                    <h3>Hands On</h3>
+                    <p>Ambos os bootcamps são 100% práticos e o feedback tem sido muito positivo. Aprenda construindo aplicações reais.</p>
+                </div>
+                <div class="feature-block">
+                    <i class="fas fa-users"></i>
+                    <h3>Para Quem?</h3>
+                    <p>Engenheiros de software, cientistas de dados, analistas de dados, gerentes técnicos e qualquer pessoa interessada em aplicar LLM.</p>
+                </div>
+                <div class="feature-block">
+                    <i class="fas fa-clock"></i>
+                    <h3>Duração</h3>
+                    <p>Cada bootcamp tem 4 horas de conteúdo prático, dividido em dois sábados de 3 horas cada.</p>
+                </div>
+                <div class="feature-block">
+                    <i class="fas fa-comments"></i>
+                    <h3>Suporte</h3>
+                    <p>Acesso a um canal privado no Discord para tirar dúvidas e trocar experiências com outros participantes.</p>
+                </div>
+            </div>
+        </section>
 
+        <section id="conteudo" class="showcase">
+            <h2>Bootcamps disponíveis</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3>Bootcamp LLM: Conversando com documentos</h3>
+                    <ul>
+                        <li>Entendendo sobre LLMs</li>
+                        <li>Hello world com o langchain</li>
+                        <li>Testando prompts e engenharia de prompts</li>
+                        <li>Entendendo de embeddings</li>
+                        <li>Comparando dados por similaridade</li>
+                        <li>Conectando com um banco vetorial</li>
+                        <li>Criando um retriever no langchain</li>
+                    </ul>
+                </div>
+                <div class="content-card">
+                    <h3>Bootcamp Agentes: Criando agentes baseagos em LLMs</h3>
+                    <ul>
+                        <li>O que é um agente baseado em LLM?</li>
+                        <li>Arquitetura básica: LLM + memória + ferramentas</li>
+                        <li>Setup do ambiente e primeiro agente</li>
+                        <li>Adicionando ferramentas e memória</li>
+                        <li>Prompting avançado: instruções, exemplos e restrições</li>
+                        <li>Boas práticas de design de agentes</li>
+                        <li>Papers para estudar mais</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-<!-- Begin Article
-================================================== -->
+        <section id="datas" class="pricing">
+            <h2>Datas dos Próximos Bootcamps</h2>
+            <div class="date-grid">
+                <div class="date-card">
+                    <h3>Bootcamp LLM</h3>
+                    <p>5 de Maio de 2025</p>
+                    <p>Segunda-feira, às 19:00</p>
+                </div>
+                <div class="date-card">
+                    <h3>Bootcamp Agentes</h3>
+                    <p>12 de Maio de 2024</p>
+                    <p>Segunda-feira, às 19:00</p>
+                </div>
+            </div>
+            <p class="date-note">Vagas limitadas: 30 participantes por bootcamp</p>
+        </section>
 
-<section class="row">
-  <div class="col-sm-8">
-    <div class="row">
-      {% for post in paginator.posts %}
-      {% unless post.featured == true %}
-        {% include postbox.html %}
-        <div class="article-post serif-font">
-          {{post.content}}
-          <div class="clearfix"></div>
+        <section id="investimento" class="investment">
+            <h2>Investimento</h2>
+            <div class="investment-grid">
+                <div class="investment-card">
+                    <h3>Bootcamp LLM</h3>
+                    <p class="price">R$ 499</p>
+                    <ul>
+                        <li>Acesso ao bootcamp de 4h</li>
+                        <li>Material didático</li>
+                        <li>Acesso ao grupo de alunos</li>
+                        <li>Certificado de conclusão</li>
+                    </ul>
+                    <button class="primary-button">Quero me inscrever!</button>
+                </div>
+                <div class="investment-card">
+                    <h3>Bootcamp Agentes</h3>
+                    <p class="price">R$ 499</p>
+                    <ul>
+                        <li>Acesso ao bootcamp de 4h</li>
+                        <li>Material didático</li>
+                        <li>Acesso ao grupo de alunos</li>
+                        <li>Certificado de conclusão</li>
+                    </ul>
+                    <button class="primary-button">Quero me inscrever!</button>
+                </div>
+                <div class="investment-card featured">
+                    <h3>Combo Completo</h3>
+                    <p class="price">R$ 889</p>
+                    <p class="discount">Economize R$ 109</p>
+                    <ul>
+                        <li>Acesso aos dois bootcamps (8h no total)</li>
+                        <li>Material didático completo</li>
+                        <li>Acesso ao grupo de alunos</li>
+                        <li>Certificados de conclusão</li>
+                        <li>3 cursos bônus:
+                            <ul>
+                                <li><a href="https://gustavopinto.gumroad.com/l/chat-llm">Converse com seus Documentos Usando LLM</a></li>
+                                <li><a href="https://gustavopinto.gumroad.com/l/embeddings">Entendendo Embeddings</a></li>
+                                <li><a href="https://gustavopinto.gumroad.com/l/dominando-chunks">Dominando Estratégias de Chunking</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <button class="primary-button">Quero me inscrever!</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials">
+            <h2>O que nossos alunos estão falando 💬</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"O bootcamp mudou completamente minha forma de trabalhar com LLMs. Agora consigo criar soluções que antes pareciam impossíveis!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Ana Silva">
+                        <div class="author-info">
+                            <h4>Ana Silva</h4>
+                            <p>Desenvolvedora Full Stack</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Aprendi mais em 8 semanas do que em meses de estudo por conta própria. O suporte da equipe foi fundamental para meu aprendizado."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Carlos Oliveira">
+                        <div class="author-info">
+                            <h4>Carlos Oliveira</h4>
+                            <p>Engenheiro de Dados</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"As aulas práticas e os projetos reais me deram a confiança que precisava para implementar LLMs em produção. Recomendo demais!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Mariana Costa">
+                        <div class="author-info">
+                            <h4>Mariana Costa</h4>
+                            <p>Product Manager</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="faq">
+            <h2>Perguntas Frequentes</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Onde vai ser?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>O bootcamp vai acontecer online, em uma sala do Google Meet. Em até dois dias antes do evento, o convite vai ser adicionado na agenda dos participantes.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Vai ser gravado?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sim, o bootcamp vai ser gravado e o link da gravação será disponibilizado para todos os participantes.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Tem algum pré-requisito?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>O único pré-requisito é ter noções de programação, preferencialmente em Python. Não é preciso ter experiência prévia com uso de LLMs.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Se eu tiver dúvidas após o bootcamp?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Para facilitar as dúvidas e trocas de interações com os participantes após o bootcamp, todos os participantes serão convidados a entrar em um canal privado no discord.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="about-container">
+            <div class="about-box">
+                <div class="about-text">
+                    <h2>Olá! Eu sou o Gustavo.</h2>
+                    <p>Sou o instrutor do bootcamp.</p>
+                    <p>Sou um engenheiro de software com mais de uma década de experiência construindo e escalando sistemas de software empresarial e machine learning. Tive o privilégio de trabalhar com empresas como Microsoft, IBM e várias startups, onde aprendi o que é necessário para construir software confiável e escalável que funcione.</p>
+                    <p>Comecei a ensinar sobre LLMs e IA em 2024 e, desde então, dezenas de alunos concluíram com sucesso meus cursos. Sou apaixonado por tornar tópicos complexos acessíveis e ajudar desenvolvedores a aproveitar os benefícios das LLMs em suas aplicações.</p>
+                    <p>Mal posso esperar para te ver na aula!</p>
+                    <div class="about-social">
+                        <a href="https://twitter.com/gustavopinto" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/ghlp" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-      {% endunless %}
-      {% endfor %}
-    </div>
-    <!-- Pagination -->
-  </div>
-  <div class="col-sm-4">
-    {% include sidebar.html %}
-  </div>
-</section>
+    </section>
 
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>LLM4Devs</h4>
+                <p>Escola de desenvolvimento de aplicações com LLMs.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Links</h4>
+                <a href="#sobre">Sobre</a>
+                <a href="#conteudo">Conteúdo</a>
+                <a href="#datas">Datas</a>
+                <a href="#investimento">Investimento</a>
+                <a href="#faq">FAQ</a>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Bootcamp LLM4Devs. All rights reserved.</p>
+        </div>
+    </footer>
 
-<!-- End Article
-================================================== -->
+    <script src="scripts.js"></script>
+</body>
+</html>
