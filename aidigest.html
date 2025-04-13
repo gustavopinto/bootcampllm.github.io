@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Digest - Pesquisa em Tecnologia, Explicada</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">AI Digest</div>
+            <div class="nav-links">
+                <a href="#about">Sobre Nós</a>
+                <a href="#topics">Nossos Tópicos</a>
+                <a href="#samples">Amostras Grátis</a>
+                <a href="#archive">O Arquivo</a>
+                <a href="#pricing">Preços</a>
+                <a href="#faq">Perguntas Frequentes</a>
+                <a href="index.html" class="ai-digest-link">LLM4Devs<i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Fique por dentro dos últimos artigos em IA, com explicações claras e em áudio!</h1>
+                    <p>Está cansado de tentar acompanhar os avanços diários da IA e se sentir perdido no meio de tantos artigos? No AI Digest, fazemos a curadoria dos artigos mais relevantes e explicamos as inovações mais recentes de maneira simples, sem perder o conteúdo técnico. Com episódios semanais em áudio e texto, você nunca mais ficará para trás.</p>
+                    <div class="hero-features">
+                        <p>Artigos de IA selecionados e explicados por especialistas</p>
+                        <p>Conteúdo semanal de alta qualidade, em texto e áudio</p>
+                        <p>Explicações acessíveis, para que você entenda até os conceitos mais complexos</p>
+                    </div>
+                    <button class="primary-button">Comece a Ouvir Agora</button>
+                </div>
+                <div class="hero-image">
+                    <img src="img/cover.png" alt="AI Digest Cover" class="cover-image">
+                </div>
+            </div>
+        </section>
+        
+        <section id="topics" class="showcase">
+            <h2>Os Tópicos que Cobrimos</h2>
+            <div class="content-grid">
+                <div class="content-card">
+                    <h3>Machine Learning</h3>
+                    <p>Aprofunde-se nos fundamentos e avanços do Machine Learning, desde algoritmos clássicos até as mais recentes técnicas de aprendizado profundo. Aprenda como essas tecnologias estão sendo aplicadas em várias industrias.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Natural Language Processing (NLP)</h3>
+                    <p>Explore os avanços mais recentes em processamento de linguagem natural, desde técnicas de tokenização e embeddings até modelos de última geração. Entenda como o NLP está transformando a forma como as máquinas compreendem.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Large Language Models (LLMs)</h3>
+                    <p>Descubra os últimos desenvolvimentos em LLMs, incluindo novas arquiteturas, técnicas de treinamento e case de aplicações práticas. Entenda como esses modelos estão revolucionando a forma como interagimos com a tecnologia.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="samples" class="pricing">
+            <h2>Amostras Grátis</h2>
+            <div class="samples-grid">
+                <div class="sample-card">
+                    <div class="sample-content">
+                        <div class="sample-image">
+                            <img src="img/paper1-chatgpt-67p.png" alt="Using Large Language Models to Generate JUnit Tests: An Empirical Study">
+                        </div>
+                        <div class="sample-text">
+                            <h3>Using Large Language Models to Generate JUnit Tests: An Empirical Study</h3>
+                            <p>Os pesquisadores conduziram um estudo utilizando três LLMs para gerar testes de unidade para classes Java, selecionando 160 classes do dataset "HumanEval" e 194 de 47 projetos de software livre (dataset "SF110"). Utilizaram três LLMs: Codex (12 bilhões de parâmetros), CodeGen (350 milhões de parâmetros) e GPT-3.5, cada um com diferentes capacidades de processamento de tokens. Os testes gerados pelos modelos foram avaliados com métricas como cobertura de código, corretude e presença de "bad smells". A taxa de compilação foi particularmente baixa, com apenas 44% dos testes do Codex sendo compiláveis no dataset HumanEval, e uma taxa ainda menor em projetos de software livre. No entanto, ao corrigir alguns erros simples, como loops infinitos ou problemas de tokens, as taxas de compilação melhoraram significativamente.</p>
+
+                            <p>Os resultados mostraram que o Codex teve o melhor desempenho em termos de compilação, corretude dos testes e cobertura de código, especialmente no dataset "HumanEval". Em termos de design de testes, os testes gerados pelos LLMs apresentaram altos índices de "bad smells", como o uso de "Magic Numbers" e "Lazy Tests". Apesar dos avanços na geração automática de testes, os pesquisadores concluíram que ainda há um longo caminho até que os LLMs possam gerar testes de unidade totalmente eficazes e prontos para uso direto. Eles sugerem que os testes gerados por LLMs sejam vistos como templates iniciais, que necessitam de ajustes adicionais para se tornarem totalmente úteis.</p>
+                            <div class="audio-player">
+                                <audio controls>
+                                    <source src="sample-audio.mp3" type="audio/mpeg">
+                                    Seu navegador não suporta o elemento de áudio.
+                                </audio>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sample-card">
+                    <div class="sample-content">
+                        <div class="sample-image">
+                            <img src="img/paper2-junit-67p.png" alt="Improving ChatGPT Prompt for Code Generation">
+                        </div>
+                        <div class="sample-text">
+                            <h3>Improving ChatGPT Prompt for Code Generation</h3>
+                            <p>O estudo focou em duas tarefas de código: T2C (geração de código) e C2C (tradução de código). Para avaliar as respostas do ChatGPT, os pesquisadores usaram métricas BLEU e CodeBLEU, que medem a similaridade entre o código gerado e um conjunto de referência. O ChatGPT foi alimentado com prompts refinados usando a técnica chain-of-thought para melhorar a precisão nas respostas. Também foram testadas estratégias como a redução de instruções e prompts concisos, além de manter a mesma sessão do ChatGPT para melhorar a compreensão do contexto.</p>
+
+                            <p>Os resultados indicaram que os prompts refinados por chain-of-thought e os concisos apresentaram melhor desempenho em comparação com os básicos. Além disso, a continuidade na mesma sessão de prompts levou a um desempenho superior, com as métricas BLEU e CodeBLEU atingindo 29.29 e 49.74, respectivamente. A pesquisa conclui que, ao usar prompts bem elaborados e iterativos, é possível otimizar a geração de código, embora a cautela seja necessária, dado que o código gerado pode conter falhas.</p>
+                            <div class="audio-player">
+                                <audio controls>
+                                    <source src="sample-audio2.mp3" type="audio/mpeg">
+                                    Seu navegador não suporta o elemento de áudio.
+                                </audio>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="investment">
+            <h2>Fique à frente da curva</h2>
+            <div class="investment-grid">
+                <div class="investment-card featured">
+                    <h3>AI Digest Premium</h3>
+                    <div class="pricing-options">
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="payment-frequency" value="monthly" checked>
+                                <span>Pagamento Mensal</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="payment-frequency" value="annual">
+                                <span>Pagamento Anual</span>
+                            </label>
+                        </div>
+                        <div class="price-display">
+                            <p class="price monthly-price">R$ 5,99/mês</p>
+                            <p class="price annual-price" style="display: none;">R$ 59,99/ano</p>
+                            <p class="discount annual-discount" style="display: none;">Economize 30%</p>
+                        </div>
+                    </div>
+                    <ul class="benefits-list">
+                        <li> Acesso a episódios inéditos, toda segunda-feira</li>
+                        <li> Links diretos para os artigos originais</li>
+                        <li> Explicações claras e acessíveis</li>
+                        <li> Conteúdo exclusivo</li>
+                        <li> Garantia de devolução do dinheiro em 30 dias</li>
+                    </ul>
+                    <button id="subscribe-button" class="primary-button">Cadastre-se Agora e Comece a Ouvir</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="faq">
+            <h2>Perguntas Frequentes</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Como isso funciona exatamente?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Criamos uma nova edição do nosso boletim informativo (em formato de texto e áudio) todas as segunda-feiras e enviamos para todos os nossos membros atuais. Cada edição é uma análise de um artigo acadêmico sobre IA, publicado em um evento científico revisado por pares.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Quanto tempo dura cada episódio?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>De 5 a 10 minutos do início ao fim. Ou 750-1000 palavras para a versão escrita. Depende do artigo.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Os áudios são gravados por um humano?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sim, todo a curadoria e edição do conteúdo é feito por humanos, doutores em ciência da computação.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Quando os episódios chegam?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Toda segunda-feira, pela manhã. Todos os dias.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Minha pergunta não está na lista.
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Mande um email para <a href="mailto:mail@gustavopinto.org">mail@gustavopinto.org</a> e vamos te responder o mais rápido possível.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>AI Digest</h4>
+                <p>As últimas pesquisas acadêmicas, explicadas em português claro.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Links</h4>
+                <a href="#about">Sobre Nós</a>
+                <a href="#topics">Nossos Tópicos</a>
+                <a href="#samples">Amostras Grátis</a>
+                <a href="#archive">O Arquivo</a>
+                <a href="#pricing">Preços</a>
+                <a href="#faq">Perguntas Frequentes</a>
+            </div>
+            <div class="footer-section">
+                <h4>Conecte-se</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 AI Digest. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html> 

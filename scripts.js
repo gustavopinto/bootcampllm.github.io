@@ -28,20 +28,20 @@ function initFAQAccordion() {
     
     faqQuestions.forEach(question => {
         question.addEventListener('click', () => {
-            // Toggle active class on question
-            question.classList.toggle('active');
-            
-            // Toggle active class on answer
             const answer = question.nextElementSibling;
-            answer.classList.toggle('active');
+            const isActive = question.classList.contains('active');
             
-            // Close other answers
-            faqQuestions.forEach(otherQuestion => {
-                if (otherQuestion !== question) {
-                    otherQuestion.classList.remove('active');
-                    otherQuestion.nextElementSibling.classList.remove('active');
-                }
+            // Close all other answers
+            faqQuestions.forEach(q => {
+                q.classList.remove('active');
+                q.nextElementSibling.classList.remove('active');
             });
+            
+            // Toggle current answer
+            if (!isActive) {
+                question.classList.add('active');
+                answer.classList.add('active');
+            }
         });
     });
 }
@@ -91,4 +91,52 @@ document.addEventListener('DOMContentLoaded', () => {
             card.style.transform = 'translateY(0)';
         });
     });
+
+    // Handle pricing radio buttons
+    const paymentRadios = document.querySelectorAll('input[name="payment-frequency"]');
+    const monthlyPrice = document.querySelector('.monthly-price');
+    const annualPrice = document.querySelector('.annual-price');
+    const annualDiscount = document.querySelector('.annual-discount');
+
+    paymentRadios.forEach(radio => {
+        radio.addEventListener('change', function() {
+            if (this.value === 'monthly') {
+                monthlyPrice.style.display = 'block';
+                annualPrice.style.display = 'none';
+                annualDiscount.style.display = 'none';
+            } else {
+                monthlyPrice.style.display = 'none';
+                annualPrice.style.display = 'block';
+                annualDiscount.style.display = 'block';
+            }
+        });
+    });
+
+    const subscribeButton = document.getElementById('subscribe-button');
+    const monthlyRadio = document.querySelector('input[value="monthly"]');
+    const annualRadio = document.querySelector('input[value="annual"]');
+    
+    // URLs dos links de pagamento
+    const monthlyUrl = 'https://buy.stripe.com/cN29DE8RYcxhbGU28b';
+    const annualUrl = 'https://buy.stripe.com/3csdTUgkq2WH7qE5km';
+    
+    // Função para atualizar o link do botão
+    function updateButtonLink() {
+        if (monthlyRadio.checked) {
+            subscribeButton.onclick = function() {
+                window.open(monthlyUrl, '_blank');
+            };
+        } else {
+            subscribeButton.onclick = function() {
+                window.open(annualUrl, '_blank');
+            };
+        }
+    }
+    
+    // Adiciona event listeners para os radio buttons
+    monthlyRadio.addEventListener('change', updateButtonLink);
+    annualRadio.addEventListener('change', updateButtonLink);
+    
+    // Inicializa o link do botão
+    updateButtonLink();
 });
