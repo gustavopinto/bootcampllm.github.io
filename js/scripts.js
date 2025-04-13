@@ -117,8 +117,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const annualRadio = document.querySelector('input[value="annual"]');
     
     // URLs dos links de pagamento
-    const monthlyUrl = 'https://buy.stripe.com/cN29DE8RYcxhbGU28b';
-    const annualUrl = 'https://buy.stripe.com/3csdTUgkq2WH7qE5km';
+    //const monthlyUrl = 'https://buy.stripe.com/cN29DE8RYcxhbGU28b';
+    //const annualUrl = 'https://buy.stripe.com/3csdTUgkq2WH7qE5km';
+
+    // const monthlyUrl = 'https://forms.gle/DJ7jCG6UAWyeaTYQ9';
+    // const annualUrl = 'https://forms.gle/DJ7jCG6UAWyeaTYQ9';
+
+    
     
     // Função para atualizar o link do botão
     function updateButtonLink() {
