@@ -1098,3 +1098,22 @@ footer {
 .ai-digest-link i {
     font-size: 0.875rem;
 }
+
+.last-edition-banner {
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+    border-radius: 8px;
+    padding: 12px 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.last-edition-banner p {
+    margin: 0;
+    color: #856404;
+    font-size: 1.1em;
+}
+
+.last-edition-banner strong {
+    color: #856404;
+}
